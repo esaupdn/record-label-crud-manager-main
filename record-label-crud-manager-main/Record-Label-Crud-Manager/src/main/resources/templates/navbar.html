@@ -1,0 +1,11 @@
+<th:block th:fragment="div-nav">
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" th:href="@{/home}">Record Labels Manager</a>
+            <div class="d-flex">
+                <a class="nav-link active text-light" th:href="@{/recordlabels}">Gravadoras</a>
+                <a class="nav-link text-light" th:href="@{/artists}">Artistas</a>
+            </div>
+        </div>
+    </nav>
+</th:block>
